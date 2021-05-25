@@ -1,0 +1,702 @@
+body {margin: 0;padding: 0;font-family: 'Russo One',  'Conv_cyber', sans-serif  ; background-color: #000 }
+
+
+a {
+	color: #EA0E;
+}
+
+.aa {
+  position: absolute;
+  top: 45%;
+  right: 50%;
+  transform: translateX(-40px);
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.aa  a {
+  position: relative;
+  display: block;
+  margin: 0 0% ;
+  padding: 0% 0%;
+  text-shadow: #FC0 1px 0 10px
+  color: #ff0;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  overflow: hidden;
+}
+.aa a::before {
+  content: '';
+  position: absolute;
+  top: calc(50% - 2px);
+  left: -100%;
+  width: 100%;
+  height: 4px;
+  background:  rgba(255, 198, 26, 0.3);
+  transition: 0.5s;
+}
+
+.aa a:hover::before {
+  animation: animate .5s linear forwards; 
+}
+
+@keyframes animate {
+  0% {
+    top: calc(50% - 2px);
+    left: -100%;
+    height: 4px;
+    z-index: 1;
+  }
+  50% {
+    top: calc(50% - 2px);
+    left: 0;
+    height: 4px;
+    z-index: 1;
+  }
+  100% {
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: -1;
+  }
+}
+.aa li {
+  position: relative;
+  list-style: none;
+}
+
+.aa a span {
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  background-color: rgba(200, 150, 0, 0.6) ;
+  z-index: -1;
+  transform-origin: top;
+  transform: scaleY(0);
+  transition: transform .5s;
+}
+.aa a:hover {
+  color: #ff0;
+  text-decoration: none;
+}
+.aa a:hover span {
+  transform-origin: bottom;
+  transform: scaleY(1);
+}
+.aa a span:nth-child(1) {
+  left: 0;
+  transition-delay: 0s;
+}
+.aa a span:nth-child(2) {
+  left: 25%;
+  transition-delay: 0.15s;
+}
+.aa a span:nth-child(3) {
+  left: 50%;
+  transition-delay: 0.3s;
+}
+.aa a span:nth-child(4) {
+  left: 75%;
+  transition-delay: 0.45s;
+}
+.aa a span:nth-child(5) {
+  left: 0;
+  transition-delay: 0.6s;
+}
+.aa a span:nth-child(6) {
+  left: 25%;
+  transition-delay: 0.75s;
+}
+.aa a span:nth-child(7) {
+  left: 50%;
+  transition-delay: 0.9s;
+}
+.aa a span:nth-child(8) {
+  left: 75%;
+  transition-delay: 1.05s;
+}
+
+
+
+
+.bb {
+  position: absolute;
+  top: 53%;
+  right: 50%;
+ transform: translateX(-40px);
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.bb  a {
+  position: relative;
+  display: block;
+  margin: 0 0%;
+  padding: 0% 0%;
+  text-shadow: #FC0 1px 0 10px
+  color: #ff0;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  overflow: hidden;
+}
+.bb a::before {
+  content: '';
+  position: absolute;
+  top: calc(50% - 2px);
+  left: -100%;
+  width: 100%;
+  height: 4px;
+  background:  rgba(255, 198, 26, 0.3);
+  transition: 0.5s;
+}
+
+.bb a:hover::before {
+  animation: animate .5s linear forwards; 
+}
+
+@keyframes animate {
+  0% {
+    top: calc(50% - 2px);
+    left: -100%;
+    height: 4px;
+    z-index: 1;
+  }
+  50% {
+    top: calc(50% - 2px);
+    left: 0;
+    height: 4px;
+    z-index: 1;
+  }
+  100% {
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: -1;
+  }
+}
+.bb li {
+  position: relative;
+  list-style: none;
+}
+
+.bb a span {
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  background-color: rgba(200, 150, 0, 0.6) ;
+  z-index: -1;
+  transform-origin: top;
+  transform: scaleY(0);
+  transition: transform .5s;
+}
+.bb a:hover {
+  color: #ff0;
+  text-decoration: none;
+}
+.bb a:hover span {
+  transform-origin: bottom;
+  transform: scaleY(1);
+}
+.bb a span:nth-child(1) {
+  left: 0;
+  transition-delay: 0s;
+}
+.bb a span:nth-child(2) {
+  left: 25%;
+  transition-delay: 0.15s;
+}
+.bb a span:nth-child(3) {
+  left: 50%;
+  transition-delay: 0.3s;
+}
+.bb a span:nth-child(4) {
+  left: 75%;
+  transition-delay: 0.45s;
+}
+.bb a span:nth-child(5) {
+  left: 0;
+  transition-delay: 0.6s;
+}
+.bb a span:nth-child(6) {
+  left: 25%;
+  transition-delay: 0.75s;
+}
+.bb a span:nth-child(7) {
+  left: 50%;
+  transition-delay: 0.9s;
+}
+.bb a span:nth-child(8) {
+  left: 75%;
+  transition-delay: 1.05s;
+}
+
+
+
+
+
+.cc {
+  position: absolute;
+  top: 61%;
+   right: 50%;
+ transform: translateX(-40px);
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.cc  a {
+  position: relative;
+  display: block;
+  margin: 0 0%;
+  padding: 0% 0%;
+  text-shadow: #FC0 1px 0 10px
+  color: #ff0;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  overflow: hidden;
+}
+.cc a::before {
+  content: '';
+  position: absolute;
+  top: calc(50% - 2px);
+  left: -100%;
+  width: 100%;
+  height: 4px;
+  background:  rgba(255, 198, 26, 0.3);
+  transition: 0.5s;
+}
+
+.cc a:hover::before {
+  animation: animate .5s linear forwards; 
+}
+
+@keyframes animate {
+  0% {
+    top: calc(50% - 2px);
+    left: -100%;
+    height: 4px;
+    z-index: 1;
+  }
+  50% {
+    top: calc(50% - 2px);
+    left: 0;
+    height: 4px;
+    z-index: 1;
+  }
+  100% {
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: -1;
+  }
+}
+.cc li {
+  position: relative;
+  list-style: none;
+}
+
+.cc a span {
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  background-color: rgba(200, 150, 0, 0.6) ;
+  z-index: -1;
+  transform-origin: top;
+  transform: scaleY(0);
+  transition: transform .5s;
+}
+.cc a:hover {
+  color: #ff0;
+  text-decoration: none;
+}
+.cc a:hover span {
+  transform-origin: bottom;
+  transform: scaleY(1);
+}
+.cc a span:nth-child(1) {
+  left: 0;
+  transition-delay: 0s;
+}
+.cc a span:nth-child(2) {
+  left: 25%;
+  transition-delay: 0.15s;
+}
+.cc a span:nth-child(3) {
+  left: 50%;
+  transition-delay: 0.3s;
+}
+.cc a span:nth-child(4) {
+  left: 75%;
+  transition-delay: 0.45s;
+}
+.cc a span:nth-child(5) {
+  left: 0;
+  transition-delay: 0.6s;
+}
+.cc a span:nth-child(6) {
+  left: 25%;
+  transition-delay: 0.75s;
+}
+.cc a span:nth-child(7) {
+  left: 50%;
+  transition-delay: 0.9s;
+}
+.cc a span:nth-child(8) {
+  left: 75%;
+  transition-delay: 1.05s;
+}
+
+
+
+
+.dd {
+  position: absolute;
+  top: 69%;
+ right: 50%;
+ transform: translateX(-40px);
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.dd  a {
+  position: relative;
+  display: block;
+  margin: 0 0%;
+  padding: 0% 0%;
+  text-shadow: #FC0 1px 0 10px
+  color: #ff0;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  overflow: hidden;
+}
+.dd a::before {
+  content: '';
+  position: absolute;
+  top: calc(50% - 2px);
+  left: -100%;
+  width: 100%;
+  height: 4px;
+  background:  rgba(255, 198, 26, 0.3);
+  transition: 0.5s;
+}
+
+.dd a:hover::before {
+  animation: animate .5s linear forwards; 
+}
+
+@keyframes animate {
+  0% {
+    top: calc(50% - 2px);
+    left: -100%;
+    height: 4px;
+    z-index: 1;
+  }
+  50% {
+    top: calc(50% - 2px);
+    left: 0;
+    height: 4px;
+    z-index: 1;
+  }
+  100% {
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: -1;
+  }
+}
+.dd li {
+  position: relative;
+  list-style: none;
+}
+
+.dd a span {
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  background-color: rgba(200, 150, 0, 0.6) ;
+  z-index: -1;
+  transform-origin: top;
+  transform: scaleY(0);
+  transition: transform .5s;
+}
+.dd a:hover {
+  color: #ff0;
+  text-decoration: none;
+}
+.dd a:hover span {
+  transform-origin: bottom;
+  transform: scaleY(1);
+}
+.dd a span:nth-child(1) {
+  left: 0;
+  transition-delay: 0s;
+}
+.dd a span:nth-child(2) {
+  left: 25%;
+  transition-delay: 0.15s;
+}
+.dd a span:nth-child(3) {
+  left: 50%;
+  transition-delay: 0.3s;
+}
+.dd a span:nth-child(4) {
+  left: 75%;
+  transition-delay: 0.45s;
+}
+.dd a span:nth-child(5) {
+  left: 0;
+  transition-delay: 0.6s;
+}
+.dd a span:nth-child(6) {
+  left: 25%;
+  transition-delay: 0.75s;
+}
+.dd a span:nth-child(7) {
+  left: 50%;
+  transition-delay: 0.9s;
+}
+.dd a span:nth-child(8) {
+  left: 75%;
+  transition-delay: 1.05s;
+}
+
+.ee {
+  position: absolute;
+  top: 77%;
+  right: 50%;
+ transform: translateX(-40px);
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.ee  a {
+  position: relative;
+  display: block;
+  margin: 0 0%;
+  padding: 0% 0%;
+  text-shadow: #FC0 1px 0 10px
+  color: #ff0;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  overflow: hidden;
+}
+.ee a::before {
+  content: '';
+  position: absolute;
+  top: calc(50% - 2px);
+  left: -100%;
+  width: 100%;
+  height: 4px;
+  background:  rgba(255, 198, 26, 0.3);
+  transition: 0.5s;
+}
+
+.ee a:hover::before {
+  animation: animate .5s linear forwards; 
+}
+
+@keyframes animate {
+  0% {
+    top: calc(50% - 2px);
+    left: -100%;
+    height: 4px;
+    z-index: 1;
+  }
+  50% {
+    top: calc(50% - 2px);
+    left: 0;
+    height: 4px;
+    z-index: 1;
+  }
+  100% {
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: -1;
+  }
+}
+.ee li {
+  position: relative;
+  list-style: none;
+}
+
+.ee a span {
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  background-color: rgba(200, 150, 0, 0.6) ;
+  z-index: -1;
+  transform-origin: top;
+  transform: scaleY(0);
+  transition: transform .5s;
+}
+.ee a:hover {
+  color: #ff0;
+  text-decoration: none;
+}
+.ee a:hover span {
+  transform-origin: bottom;
+  transform: scaleY(1);
+}
+.ee a span:nth-child(1) {
+  left: 0;
+  transition-delay: 0s;
+}
+.ee a span:nth-child(2) {
+  left: 25%;
+  transition-delay: 0.15s;
+}
+.ee a span:nth-child(3) {
+  left: 50%;
+  transition-delay: 0.3s;
+}
+.ee a span:nth-child(4) {
+  left: 75%;
+  transition-delay: 0.45s;
+}
+.ee a span:nth-child(5) {
+  left: 0;
+  transition-delay: 0.6s;
+}
+.ee a span:nth-child(6) {
+  left: 25%;
+  transition-delay: 0.75s;
+}
+.ee a span:nth-child(7) {
+  left: 50%;
+  transition-delay: 0.9s;
+}
+.ee a span:nth-child(8) {
+  left: 75%;
+  transition-delay: 1.05s;
+}
+
+a {
+  color: #EA0E}
+.top {
+  position: absolute;
+  top: 3100px;
+  left: ;
+  transform: translate(-50%, -50%);
+  margin: 0% 0% 0% 0%;
+  padding: 0px 0px 0px 0px;
+  display: flex;
+}
+
+.top  a {
+  position: relative;
+  display: block;
+  margin: 0 0% ;
+  padding: 0% 0%;
+  text-shadow: #FC0 1px 0 10px
+  color: #ff0;
+  font-size: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  overflow: hidden;
+}
+.top a::before {
+  content: '';
+  position: absolute;
+  top: calc(50% - 2px);
+  left: -100%;
+  width: 100%;
+  height: 4px;
+  background:  rgba(255, 198, 26, 0.3);
+  transition: 0.5s;
+}
+
+.top a:hover::before {
+  animation: animate .5s linear forwards; 
+}
+
+@keyframes animate {
+  0% {
+    top: calc(50% - 2px);
+    left: -100%;
+    height: 4px;
+    z-index: 1;
+  }
+  50% {
+    top: calc(50% - 2px);
+    left: 0;
+    height: 4px;
+    z-index: 1;
+  }
+  100% {
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: -1;
+  }
+}
+.top li {
+  position: relative;
+  list-style: none;
+}
+
+.top a span {
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  background-color: rgba(200, 150, 0, 0.6) ;
+  z-index: -1;
+  transform-origin: top;
+  transform: scaleY(0);
+  transition: transform .5s;
+}
+.top a:hover {
+  color: #ff0;
+  text-decoration: none;
+}
+.top a:hover span {
+  transform-origin: bottom;
+  transform: scaleY(1);
+}
+.top a span:nth-child(1) {
+  left: 0;
+  transition-delay: 0s;
+}
+.top a span:nth-child(2) {
+  left: 25%;
+  transition-delay: 0.15s;
+}
+.top a span:nth-child(3) {
+  left: 50%;
+  transition-delay: 0.3s;
+}
+.top a span:nth-child(4) {
+  left: 75%;
+  transition-delay: 0.45s;
+}
+.top a span:nth-child(5) {
+  left: 0;
+  transition-delay: 0.6s;
+}
+.top a span:nth-child(6) {
+  left: 25%;
+  transition-delay: 0.75s;
+}
+.top a span:nth-child(7) {
+  left: 50%;
+  transition-delay: 0.9s;
+}
+.top a span:nth-child(8) {
+  left: 75%;
+  transition-delay: 1.05s;
+}
